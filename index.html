@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+      <meta charset="UTF-8">
+      <title>Image slideshow using JQuery</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <h1 class="heading">Image slideshow using JQuery</h1>
+
+      <!-- content -->
+      <div class="container">
+      <div class="slideshow cycle-slideshow" 
+         data-cycle-fx="scrollHorz" 
+         data-cycle-pause-on-hover="true"
+         data-cycle-prev="#prev"
+    data-cycle-next="#next">
+         <img src="https://images.unsplash.com/photo-1504608245011-62d9758c1bb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+         <img src="https://images.unsplash.com/photo-1583364481915-dacea3e06d18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+         <img src="https://images.unsplash.com/photo-1602661287394-ccf02e1a0893?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+      </div>
+      <div class="arrows">
+         <img src="arrow-left.png" id="prev">
+         <img src="arrow-right.png" id="next">
+      </div>
+   </div>
+      <!-- script sources -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js'></script>
+
+   </body>
+</html>
